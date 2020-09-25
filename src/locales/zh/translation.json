@@ -1,0 +1,57 @@
+{
+  "app": {
+    "install": "执行任何操作的时候，您需要安装",
+    "perform": "",
+    "close": "关闭",
+    "warning": "警告"
+  },
+  "header": {
+    "home": "首页",
+    "park": "DeBear",
+    "more": "关于",
+    "wallet": "我的钱包",
+    "lan": "Language",
+    "account": "账户",
+    "balance": "余额",
+    "balance1": "余额",
+    "balance2": "我的余额",
+    "cancel": "取消"
+  },
+  "home": {
+    "balance": "我的余额",
+    "supply": "当前总供应量",
+    "see": "查看DeBear",
+    "Pledge": "我的质押",
+    "Totalpledge": "总质押",
+    "statistical": "ETH/USDT 统计资料",
+    "statistical2": "KOBE/ETH 统计资料",
+    "statistical3": "KOBE/USDT 统计资料",
+    "statistical4": "KOBE/AMPL 统计资料"
+  },
+  "park": {
+    "earn": "永久赚取",
+    "token": "并分享交易费",
+    "deposit": "存款",
+    "tiger": "获取KOBE",
+    "day": "天",
+    "finished": "已结束",
+    "notstartted": "尚未开始",
+    "select": "选择",
+    "address": "合约地址"
+  },
+  "detail": {
+    "max": "最大值",
+    "confirm": "确认",
+    "deposit": "存入",
+    "earn": "获取 KOBE",
+    "earned": "已获取的 KOBE",
+    "staked": " 已质押",
+    "adopt": "收获",
+    "feed": "批准",
+    "feed2": "投食",
+    "adoptAndUnstake": "收获并解押",
+    "unstake": "解押",
+    "pledge": "质押",
+    "insufficientBalance": "余额不足"
+  }
+}

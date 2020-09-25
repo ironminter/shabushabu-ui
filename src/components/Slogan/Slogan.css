@@ -1,0 +1,66 @@
+.slogan{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .slogan {
+        background: #FFF1F7;
+    }
+}
+
+.slogan::before{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background: url('../../assets/images/chushi.svg') no-repeat;
+    background-size: 90%;
+    background-position: center;
+    /* border: solid 4px #F06C2A; */
+    border-radius: 80px;
+    box-sizing: border-box;
+}
+
+.text-logo{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.text-logo-text1{
+    font-size: 32px;
+    font-weight: 900;
+    color: #7789a1;
+}
+
+.text-logo-text2{
+    /* line-height: 40px; */
+    font-size: 21px;
+    color: #636363;
+    font-weight: 900;
+}
+
+.slogan-title{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    line-height: 32px;
+    text-align: center;
+    color: #8a96a5;
+    font-size: 21px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+}
+@media (max-width:768px) {
+    .slogan-title{
+        font-size: 18px;
+    }
+}
+.slogan-title-name{
+    color: #8a96a5;
+}
