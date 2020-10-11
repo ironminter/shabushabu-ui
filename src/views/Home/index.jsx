@@ -12,10 +12,10 @@ import './Home.css';
 import conf from '../../tools/conf';
 
 import Obtain from '../../components/Obtain/Obtain';
-import DEARKaws from '../../assets/img/pig.png';
-import DEARAppleFace from '../../assets/img/cow.png';
-import DEARGirlimg from '../../assets/img/fish.png';
-import DEARAilen from '../../assets/img/ship.png';
+import Kaws from '../../assets/img/pig.png';
+import AppleFace from '../../assets/img/cow.png';
+import Girlimg from '../../assets/img/fish.png';
+import Ailen from '../../assets/img/ship.png';
 
 function Home() {
 
@@ -110,10 +110,10 @@ function Home() {
         <div className="home">
             <Slogan />
             <div className="tokenStakeItem-div">
-                <Obtain icon={DEARKaws} statistics={t('home.statistical')} myStake={myUSDTNum} Pledge={t('home.Pledge')} subStake={totalUSDTNum} Totalpledge={t('home.Totalpledge')} />
-                <Obtain icon={DEARAppleFace} statistics={t('home.statistical2')} myStake={myBTFNum} Pledge={t('home.Pledge')} subStake={totalBTFNum} Totalpledge={t('home.Totalpledge')} />
-                <Obtain icon={DEARGirlimg} statistics={t('home.statistical3')} myStake={myNBLNum} Pledge={t('home.Pledge')} subStake={totalNBLNum} Totalpledge={t('home.Totalpledge')} />
-                <Obtain icon={DEARAilen} statistics={t('home.statistical4')} myStake={myBETNum} Pledge={t('home.Pledge')} subStake={totalBETNum} Totalpledge={t('home.Totalpledge')} />
+                <Obtain icon={Kaws} statistics={t('home.statistical')} myStake={myUSDTNum} Pledge={t('home.Pledge')} subStake={totalUSDTNum} Totalpledge={t('home.Totalpledge')} />
+                <Obtain icon={AppleFace} statistics={t('home.statistical2')} myStake={myBTFNum} Pledge={t('home.Pledge')} subStake={totalBTFNum} Totalpledge={t('home.Totalpledge')} />
+                <Obtain icon={Girlimg} statistics={t('home.statistical3')} myStake={myNBLNum} Pledge={t('home.Pledge')} subStake={totalNBLNum} Totalpledge={t('home.Totalpledge')} />
+                <Obtain icon={Ailen} statistics={t('home.statistical4')} myStake={myBETNum} Pledge={t('home.Pledge')} subStake={totalBETNum} Totalpledge={t('home.Totalpledge')} />
             </div>
             <Link to="/menu">
                 <div className="goto-menu-btn btn">{t('home.see')}</div>

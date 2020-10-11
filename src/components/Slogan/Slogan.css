@@ -12,8 +12,8 @@
 .slogan::before{
     content: "";
     display: block;
-    width: 160px;
-    height: 160px;
+    width: 240px;
+    height: 187px;
     margin: 0 auto;
     background: url('../../assets/img/chef.png') no-repeat;
     background-size: 90%;

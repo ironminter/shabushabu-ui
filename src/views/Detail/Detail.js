@@ -12,7 +12,6 @@ import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import tigerLogo from '../../assets/images/KOBE.svg';
-import xing from '../../assets/images/zuzi.svg';
 
 import wallet from '../../tools/ethWallet';
 import conf from '../../tools/conf';
