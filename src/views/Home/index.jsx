@@ -12,10 +12,10 @@ import './Home.css';
 import conf from '../../tools/conf';
 
 import Obtain from '../../components/Obtain/Obtain';
-import DEARKaws from '../../assets/images/nht-1.svg';
-import DEARAppleFace from '../../assets/images/nht-2.svg';
-import DEARGirlimg from '../../assets/images/nht-3.svg';
-import DEARAilen from '../../assets/images/nht-4.svg';
+import DEARKaws from '../../assets/img/pig.png';
+import DEARAppleFace from '../../assets/img/cow.png';
+import DEARGirlimg from '../../assets/img/fish.png';
+import DEARAilen from '../../assets/img/ship.png';
 
 function Home() {
 

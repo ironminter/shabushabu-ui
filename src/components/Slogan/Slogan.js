@@ -10,7 +10,7 @@ function Slogan() {
     return (
         <div className="slogan">
             <div className="text-logo">
-                <div className="text-logo-text1">Crypto Hipsters! Find your favorite here!</div>
+                <div className="text-logo-text1">lt's Shabu Shabu time!</div>
                 {/* <div className="text-logo-text2">.site</div> */}
             </div>
             {/* <div className="slogan-title">{t('park.earn')}<span className="slogan-title-name">&nbsp;nebula&nbsp;</span>{t('park.token')}</div> */}

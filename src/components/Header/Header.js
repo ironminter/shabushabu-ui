@@ -7,7 +7,7 @@ import wallet from '../../tools/ethWallet';
 import Unlock from '../../views/Unlock';
 
 import './Header.css';
-import logo from './../../assets/images/icon.png';
+import logo from './../../assets/img/logo1.png';
 
 function Header() {
 

@@ -1,4 +1,6 @@
+
 .tokenStakeItem-div{
+
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
@@ -37,7 +39,9 @@
       margin: 0 auto;
     }
   }
+ 
 .title {
+  /* font-family: 'NeuesBauenDemo'; */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: start;
@@ -85,8 +89,18 @@
     padding-left: 5px;
     line-height: 16px
   }
-
+  @font-face {
+    font-family: 'NeuesBauenDemo';
+    src: url('../../assets/fonts/Japanese\ Style.ttf');
+    /* src: url('../fonts/neues_bauen_demo-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('../fonts/neues_bauen_demo-webfont.woff') format('woff'),
+	 url('../fonts/neues_bauen_demo-webfont.ttf') format('truetype'),
+	 url('../fonts/neues_bauen_demo-webfont.svg#NeuesBauenDemo') format('svg'); */
+    font-weight: normal;
+    font-style: normal;
+  }
 .subTitle {
+  /* font-family: 'NeuesBauenDemo'; */
     color: #7789a1;
     font-size: 14px;
     font-weight: 500

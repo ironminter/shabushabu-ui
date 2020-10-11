@@ -7,7 +7,7 @@
   },
   "header": {
     "home": "Home",
-    "park": "DeBear",
+    "park": "Menu",
     "more": "More",
     "wallet": "My Wallet",
     "lan": "语言",
@@ -20,7 +20,7 @@
   "home": {
     "balance": "My  balance",
     "supply": "Current Total Supply",
-    "see": "See The DeBear",
+    "see": "See The Menu",
     "Pledge": "My Stake",
     "Totalpledge": "Total Staked",
     "statistical": "ETH/USDT Stats",
