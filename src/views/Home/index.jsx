@@ -12,10 +12,10 @@ import './Home.css';
 import conf from '../../tools/conf';
 
 import Obtain from '../../components/Obtain/Obtain';
-import Kaws from '../../assets/img/pig.png';
-import AppleFace from '../../assets/img/cow.png';
-import Girlimg from '../../assets/img/fish.png';
-import Ailen from '../../assets/img/ship.png';
+import Kaws from '../../assets/images/pig.png';
+import AppleFace from '../../assets/images/cow.png';
+import Girlimg from '../../assets/images/fish.png';
+import Ailen from '../../assets/images/ship.png';
 
 function Home() {
 
