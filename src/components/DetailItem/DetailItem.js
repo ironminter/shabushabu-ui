@@ -1,6 +1,6 @@
 import React from 'react';
 import './DetailItem.css';
-// import liufang from './../../assets/IMG/liufang.svg'
+// import liufang from './../../assets/images/liufang.svg'
 // 根据状态去判断当前功能、0 批准，1 解压，2质押
 function DetailItem(props) {
 
