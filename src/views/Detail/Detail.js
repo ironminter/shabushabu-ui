@@ -11,7 +11,7 @@ import Loading from '../../components/Loading';
 import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-import tigerLogo from '../../assets/images/KOBE.svg';
+import tigerLogo from '../../assets/images/cowhead.png';
 
 import wallet from '../../tools/ethWallet';
 import conf from '../../tools/conf';
