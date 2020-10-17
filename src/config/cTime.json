@@ -1,13 +1,9 @@
 {
-    "tiger": {
+    "usdt": {
         "start_time": 1599832800000,
         "end_time": 1660312800000
     },
-    "usdt": {
-        "start_time": 1599825600000,
-        "end_time": 1660305600000
-    },
-    "usdj": {
+    "tiger": {
         "start_time": 1599825600000,
         "end_time": 1660305600000
     },
@@ -15,16 +11,8 @@
         "start_time": 1599825600000,
         "end_time": 1660305600000
     },
-    "btt": {
+    "usdj": {
         "start_time": 1599825600000,
         "end_time": 1660305600000
-    },
-    "pearl": {
-        "start_time": 1599825600000,
-        "end_time": 1660305600000
-    },
-    "pear": {
-        "start_time": 1799825600000,
-        "end_time": 1960305600000
     }
 }
