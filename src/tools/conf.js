@@ -4,7 +4,7 @@ import abi from './contractABI';
 export default {
   bonusInfos: { // 奖金信息  挖矿的代币地址
     pool1: {
-      address: '0x79b234d5389E17DF2d9a09F1FF6a1Ac0Db0255B9',
+      address: '0xCd2c4BA710341484e10CB58eC623f740aeE28D7d',
       decimals: 18,
       isToken: true,
       abi: abi.erc20ABI
@@ -12,25 +12,25 @@ export default {
   },
   poolInfos: { // 池子信息  池子信息的地址
     pool1: {
-      address: '0xEc9CA6b575a62C059AE50c7139d3Ed06e5e2EB5c',
+      address: '0x1d6d45E1370E894Deaf1F33E946E9bc1d566C9F9',
       decimals: 18,
       isToken: true,
       abi: abi.rewardPoolABI
     },
     pool2: {
-      address: '0xA816F532a3A5a6e8BD6BE2e32C9c064928AEdC06',
+      address: '0x0000000000000000000000000000000000000000',
       decimals: 18,
       isToken: true,
       abi: abi.rewardPoolABI
     },
     pool3: {
-      address: '0x99dcEf0A3a1694ceCa913bF21cF263C22EFE416d',
+      address: '0x0000000000000000000000000000000000000000',
       decimals: 18,
       isToken: true,
       abi: abi.rewardPoolABI
     },
     pool4: {
-      address: '0x31A21046a6b7c913F3863F62E465c578e7634c78',
+      address: '0x0000000000000000000000000000000000000000',
       decimals: 18,
       isToken: true,
       abi: abi.rewardPoolABI
@@ -38,25 +38,25 @@ export default {
   },
   marginInfos: { // 池子对应的保证金   质押代币的地址
     pool1: {
-      address: '0x7906Fe53F834b7d53cAB4A290AA690395FEF6771',
+      address: '0xa49df271Dcd43A6c623415A20C20cf42b25Cca2D',
       decimals: 18,
       isToken: true,
       abi: abi.erc20ABI
     },
     pool2: {
-      address: '0xEBA2a7912bC80edf9966648ae0c43190CDDffAeC',
+      address: '0x0000000000000000000000000000000000000000',
       decimals: 6,
       isToken: true,
       abi: abi.erc20ABI
     },
     pool3: {
-      address: '0x9ac3ae0e48da49b33EA39E0340cDce08084efF0d',
+      address: '0x0000000000000000000000000000000000000000',
       decimals: 18,
       isToken: true,
       abi: abi.erc20ABI
     },
     pool4: {
-      address: '0x10C8AEc2C818c442832D322858611d8616cC5b60',
+      address: '0x0000000000000000000000000000000000000000',
       decimals: 18,
       isToken: true,
       abi: abi.erc20ABI
