@@ -3,12 +3,6 @@
     text-align: center;
 }
 
-@media (max-width:768px) {
-    .slogan {
-        background: #FFF1F7;
-    }
-}
-
 .slogan::before{
     content: "";
     display: block;
