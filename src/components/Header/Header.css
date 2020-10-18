@@ -28,6 +28,7 @@
 }
 
 .logo img{
+    padding-left: 10px;
     width: 225px;
     margin: 10px 0 0 0;
     height: auto;
@@ -36,7 +37,7 @@
 
 @media (max-width:768px) {
     .logo img {
-        width: 40px;
+        width: 150px;
     }
 }
 
