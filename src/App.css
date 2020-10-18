@@ -17,7 +17,7 @@ body{
     /* text-align: justify; */
     /* word-break: break-all; */
     font-size: 12px;
-    background: #f0eced;
+    background: white;
     font-family: Neue Haas Unica,PingFang SC,微软雅黑,Microsoft Yahei,宋体,Helvetica,Arial,simsun;
     /* font-family: 'NeuesBauenDemo'; */
     /* background: url(./assets/tiger_strong.png) no-repeat fixed center left -400px / 600px,
@@ -28,7 +28,7 @@ body{
 
 @media (max-width:768px) {
     body {
-        background:#FFF1F7;
+        background: white;
     }
 }
 
