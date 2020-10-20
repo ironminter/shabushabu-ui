@@ -259,7 +259,8 @@ class EthWallet {
         // .call({ from: this.getDefaultAddress().data });
 
         let dec = decimals ? decimals : asset.decimals;
-        dec = dec - 5;
+        let nB = (dec < 8) ? dec : 8;
+        dec = dec - nB;
 
         // balance = parseFloat(balance) / 10 ** dec;
         balance = web3.utils.toBN(balance).div(web3.utils.toBN(10 ** dec)).toNumber();
@@ -267,7 +268,7 @@ class EthWallet {
         // balance = web3.utils.toBN(50000000000000000000000).div(web3.utils.toBN(10 ** dec)).toNumber();
         return {
           code: 0,
-          data: balance / 1e5
+          data: balance / (10 ** nB)
         }
       } catch (err) {
         console.log(err);

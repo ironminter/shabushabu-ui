@@ -15,7 +15,7 @@ export const formatBigNumber = chaotic => chaotic.div(1e18).decimalPlaces(2).toS
  * @param {*} urlStr 
  */
 export const formatDecimalDigits = chaotic =>
-  Math.floor(parseFloat(chaotic) * 10000) / 10000;
+  Math.floor(parseFloat(chaotic) * 100000000) / 100000000;
 
 /**
   * 解析 URL 中参数。
