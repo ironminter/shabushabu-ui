@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import HttpsRedirect from 'react-https-redirect';
 
 import './i18n';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HttpsRedirect>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </HttpsRedirect>,
   // <App />,
   document.getElementById('root')
 );
