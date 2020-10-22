@@ -18,7 +18,7 @@ export default {
       abi: abi.rewardPoolABI
     },
     pool2: {
-      address: '0x0000000000000000000000000000000000000000',
+      address: '0x8fB10755a42A1B44036379D250BDCCE06834DFfE',
       decimals: 18,
       isToken: true,
       abi: abi.rewardPoolABI
@@ -44,8 +44,8 @@ export default {
       abi: abi.erc20ABI
     },
     pool2: {
-      address: '0x0000000000000000000000000000000000000000',
-      decimals: 6,
+      address: '0x4E09EABb448525A77A7A7727E049DFE428012c1a',
+      decimals: 18,
       isToken: true,
       abi: abi.erc20ABI
     },
