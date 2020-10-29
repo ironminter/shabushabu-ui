@@ -48,21 +48,21 @@ function Home() {
             resUSDTNum,
             resBTFNum,
             resNBLNum,
-            // resBETNum,
+            resBETNum,
             resTotalUSDTNum,
             resTotalBTFNum,
             resTotalNBLNum,
-            // resTotalBETNum,
+            resTotalBETNum,
         ] = await Promise.all([
             wallet.getBalance(conf.poolInfos.pool1, wallet.getDefaultAddress().data, conf.marginInfos.pool1.decimals),
             wallet.getBalance(conf.poolInfos.pool2, wallet.getDefaultAddress().data, conf.marginInfos.pool2.decimals),
             wallet.getBalance(conf.poolInfos.pool3, wallet.getDefaultAddress().data),
-            // wallet.getBalance(conf.poolInfos.pool4, wallet.getDefaultAddress().data),
+            wallet.getBalance(conf.poolInfos.pool4, wallet.getDefaultAddress().data),
 
             wallet.getTotalSupply(conf.poolInfos.pool1, conf.marginInfos.pool1.decimals),
             wallet.getTotalSupply(conf.poolInfos.pool2,conf.marginInfos.pool2.decimals),
             wallet.getTotalSupply(conf.poolInfos.pool3),
-            // wallet.getTotalSupply(conf.poolInfos.pool4),
+            wallet.getTotalSupply(conf.poolInfos.pool4),
         ]);
 
         setMyUSDTNum(formatDecimalDigits(resUSDTNum.data));
@@ -74,8 +74,8 @@ function Home() {
         setMyNBLNum(formatDecimalDigits(resNBLNum.data));
         setTotalNBLNum(formatDecimalDigits(resTotalNBLNum.data));
 
-        // setMyBETNum(formatDecimalDigits(resBETNum.data));
-        // setTotalBETNum(formatDecimalDigits(resTotalBETNum.data));
+        setMyBETNum(formatDecimalDigits(resBETNum.data));
+        setTotalBETNum(formatDecimalDigits(resTotalBETNum.data));
 
     }
 
