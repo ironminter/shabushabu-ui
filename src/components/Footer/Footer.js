@@ -13,6 +13,9 @@ function Footer() {
                 <a href='https://medium.com/@shabushabu' target='new_tab'>
                   <img className='external-logo' src={require('../../assets/images/medium.svg')} />
                 </a>
+                <a href='https://github.com/ironminter/shabushabu' target='new_tab'>
+                  <img className='external-logo' src={require('../../assets/images/github.png')} />
+                </a>
             </div>
         </div>
     );
