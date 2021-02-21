@@ -73,6 +73,9 @@ function Header() {
                         <NavLink exact to="/menu">{t('header.park')}</NavLink>
                     </li>
 
+                    <li className="nav-item">
+                    <a href='https://kobeswap.org' target='new_tab'>KobeSwap</a>
+                    </li>
                 </ul>
 
                 <div className="header-right">
