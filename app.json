@@ -1,0 +1,8 @@
+{
+  "name": "ShabuShabu UI",
+  "description": "ShabuShabu UI",
+  "repository": "https://github.com/hvo408/shabushabu-ui",
+  "logo": "",
+  "keywords": ["react"],
+  "image": "heroku/nodejs"
+}

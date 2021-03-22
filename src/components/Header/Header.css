@@ -1,0 +1,143 @@
+.header{
+    height: 80px;
+    padding-top: 15px;
+    max-width: 1200px;
+    min-width: 880px;
+    margin: 0 auto;
+    z-index: 5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    .header {
+        min-width: 0;
+        height: 64px;
+    }
+}
+
+.logo-box{
+    width: 320px;
+}
+
+@media (max-width:768px) {
+    .logo-box {
+        width: auto;
+    }
+}
+
+.logo img{
+    padding-left: 10px;
+    width: 225px;
+    margin: 10px 0 0 0;
+    height: auto;
+    display: block;
+}
+
+@media (max-width:768px) {
+    .logo img {
+        width: 150px;
+    }
+}
+
+.nav{
+    height: 80%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .nav {
+        display: none;
+    }
+}
+
+.nav-item{
+    padding:  0 15px;
+    font-size: 18px;
+    color: #ad9e9e;
+    font-weight: 800;
+}
+
+.nav-item .active{
+    color:#4d545c;
+}
+
+.nav-mob{
+    height: 40px;
+    background-color: #e8e8e8;
+    box-shadow: 0 4.02px 4.02px rgba(0,0,0,.1);
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media (max-width:768px) {
+    .nav-mob {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.header-right{
+    width: 320px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vollet-btn{
+    width: 152px;
+    height: 44px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@media (max-width:768px) {
+    .vollet-btn {
+        width: auto;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width:420px) {
+    .vollet-btn {
+        width: auto;
+        padding: 0 12px;
+        font-size: 14px;
+    }
+}
+
+.lan-choose{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.lan-text{
+    color: #8a8e97;
+}
+
+.lan-en{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../../assets/images/cn.png) 50% no-repeat;
+    background-size: auto;
+    background-size: contain;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.lan-cn{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../../assets/images/zc.png) 50% no-repeat;
+    background-size: auto;
+    background-size: contain;
+    margin: 0 5px;
+    cursor: pointer;
+}

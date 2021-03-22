@@ -1,0 +1,32 @@
+.footer{
+    /* background: gray; */
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-box{
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-box>a{
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.external-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-logo{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}

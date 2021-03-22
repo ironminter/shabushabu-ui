@@ -1,0 +1,25 @@
+.statistics {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    max-width: 850px;
+}
+
+@media (max-width:768px) {
+    .statistics {
+        flex-wrap: wrap;
+    }
+}
+
+.goto-menu-btn{
+    width: 240px;
+    height: 44px;
+    margin: 40px auto;
+    border-radius: 22px;
+}
+
+.tokenStakeItem-div{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: inherit; */
+}
